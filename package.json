@@ -1,0 +1,62 @@
+{
+  "name": "benchmarks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CRDT benchmarks",
+  "type": "module",
+  "funding": {
+    "type": "GitHub Sponsors ❤",
+    "url": "https://github.com/sponsors/dmonad"
+  },
+  "workspaces": [
+    "benchmarks/yjs",
+    "benchmarks/ywasm",
+    "benchmarks/loro",
+    "benchmarks/automerge",
+    "benchmarks/automerge-wasm",
+    "benchmarks/diamond-types"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules ./benchmarks/*/node_modules ./benchmarks/*/dist",
+    "start": "npm run start -ws",
+    "start:bun": "npm run start:bun -ws",
+    "table": "node bin/render-table.js benchmarks/results.json 6000 yjs ywasm loro automerge diamond-types",
+    "lint": "standard && tsc"
+  },
+  "standard": {
+    "ignore": [
+      "**/dist/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmonad/crdt-benchmarks.git"
+  },
+  "keywords": [
+    "CRDT",
+    "benchmark"
+  ],
+  "author": "Kevin Jahns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmonad/crdt-benchmarks/issues"
+  },
+  "homepage": "https://github.com/dmonad/crdt-benchmarks#readme",
+  "engines": {
+    "node": "^20.0.0"
+  },
+  "dependencies": {
+    "lib0": "^0.2.42"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@rollup/plugin-wasm": "^6.2.2",
+    "rollup": "^2.77.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "standard": "^16.0.3",
+    "typescript": "^5.3.3"
+  }
+}
