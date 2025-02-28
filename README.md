@@ -1,6 +1,6 @@
 # CRDT benchmarks
 
-> This project is based on [crdt-benchmarks](https://github.com/dmonad/crdt-benchmarks) by Kevin Jahns.
+> This project is based on [crdt-benchmarks](https://github.com/dmonad/crdt-benchmarks) by Kevin Jahns.  
 > A collection of reproducible benchmarks. _PRs are welcome._
 
 ```sh

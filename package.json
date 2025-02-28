@@ -4,10 +4,6 @@
   "private": true,
   "description": "CRDT benchmarks",
   "type": "module",
-  "funding": {
-    "type": "GitHub Sponsors ❤",
-    "url": "https://github.com/sponsors/dmonad"
-  },
   "workspaces": [
     "benchmarks/yjs",
     "benchmarks/ywasm",
@@ -30,18 +26,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmonad/crdt-benchmarks.git"
+    "url": "git+https://github.com/yorkie-team/crdt-benchmarks.git"
   },
   "keywords": [
     "CRDT",
     "benchmark"
   ],
-  "author": "Kevin Jahns",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dmonad/crdt-benchmarks/issues"
+    "url": "https://github.com/yorkie-team/crdt-benchmarks/issues"
   },
-  "homepage": "https://github.com/dmonad/crdt-benchmarks#readme",
+  "homepage": "https://github.com/yorkie-team/crdt-benchmarks#readme",
   "engines": {
     "node": "^20.0.0"
   },
