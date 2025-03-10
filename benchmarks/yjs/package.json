@@ -10,6 +10,7 @@
     "start": "npm run measure-bundle && node --expose-gc run.js && npm run table",
     "start:bun": "npm run measure-bundle && bun run run.js && npm run table",
     "start:browser": "rollup -c && 0serve -o benchmark.html",
+    "start:ci": "npm run measure-bundle && node --expose-gc run.js",
     "table": "echo 'Yjs results: \n\n' && node ../../bin/render-table.js ../results.json 6000 yjs",
     "dist": "npm run clean && rollup -c && gzip --keep dist/*"
   },

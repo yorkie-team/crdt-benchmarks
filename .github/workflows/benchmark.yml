@@ -1,0 +1,39 @@
+name: CRDT Benchmark
+
+on:
+  workflow_dispatch: # Allows manual trigger from Actions tab
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          npm config set @buf:registry https://buf.build/gen/npm/v1/
+          npm install
+
+      - name: Run benchmark
+        continue-on-error: true
+        run: npm run start:ci
+
+      - name: Generate benchmark table
+        run: npm run table
+
+      - name: Upload benchmark results
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: benchmarks/results.json
