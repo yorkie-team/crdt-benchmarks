@@ -5,6 +5,8 @@
   "description": "CRDT benchmarks",
   "type": "module",
   "workspaces": [
+    "benchmarks/yorkie-vv",
+    "benchmarks/yorkie-lamport",
     "benchmarks/yjs",
     "benchmarks/ywasm",
     "benchmarks/loro",
