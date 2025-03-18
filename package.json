@@ -20,7 +20,8 @@
     "start:bun": "npm run start:bun -ws",
     "start:ci": "npm run start:ci -ws",
     "table": "node bin/render-table.js benchmarks/results.json 6000 yorkie yorkie-lamport yjs ywasm loro automerge diamond-types",
-    "lint": "standard && tsc"
+    "lint": "standard && tsc",
+    "visualize": "cd viz && npm install && npm run dev"
   },
   "standard": {
     "ignore": [

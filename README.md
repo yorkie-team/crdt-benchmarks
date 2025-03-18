@@ -16,6 +16,8 @@ cd benchmarks/yjs && npm start
 cd benchmarks/yjs && npm start:browser
 # print collected results
 npm run table
+# visualize results
+npm run visualize
 ```
 
 ## Benchmarks
