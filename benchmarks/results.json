@@ -1,0 +1,1214 @@
+{
+  "6000": {
+    "Version": {
+      "yorkie": "0.0.0",
+      "yorkie-lamport": "0.0.0",
+      "yjs": "13.6.24",
+      "ywasm": "0.17.4",
+      "loro": "0.10.1",
+      "automerge": "2.2.8",
+      "automerge-wasm": "1.0.0-preview.0",
+      "diamond-types": "1.0.2"
+    },
+    "Bundle size": {
+      "yorkie": "262673 bytes",
+      "yorkie-lamport": "257414 bytes",
+      "yjs": "69909 bytes",
+      "ywasm": "954634 bytes",
+      "loro": "1043345 bytes",
+      "automerge": "2212275 bytes",
+      "automerge-wasm": "2190373 bytes",
+      "diamond-types": "268316 bytes"
+    },
+    "Bundle size (gzipped)": {
+      "yorkie": "59166 bytes",
+      "yorkie-lamport": "57991 bytes",
+      "yjs": "20396 bytes",
+      "ywasm": "286711 bytes",
+      "loro": "396477 bytes",
+      "automerge": "741913 bytes",
+      "automerge-wasm": "740807 bytes",
+      "diamond-types": "107314 bytes"
+    },
+    "[B1.1] Append N characters (time)": {
+      "yorkie": "1135 ms",
+      "yorkie-lamport": "893 ms",
+      "yjs": "347 ms",
+      "ywasm": "236 ms",
+      "loro": "307 ms",
+      "automerge": "660 ms",
+      "automerge-wasm": "20014 ms",
+      "diamond-types": "164 ms"
+    },
+    "[B1.1] Append N characters (avgUpdateSize)": {
+      "yorkie": "260 bytes",
+      "yorkie-lamport": "141 bytes",
+      "yjs": "27 bytes",
+      "ywasm": "27 bytes",
+      "loro": "109 bytes",
+      "automerge": "125 bytes",
+      "automerge-wasm": "121 bytes",
+      "diamond-types": "70 bytes"
+    },
+    "[B1.1] Append N characters (encodeTime)": {
+      "yorkie": "85 ms",
+      "yorkie-lamport": "87 ms",
+      "yjs": "1 ms",
+      "ywasm": "1 ms",
+      "loro": "1 ms",
+      "automerge": "14 ms",
+      "automerge-wasm": "3 ms",
+      "diamond-types": "0 ms"
+    },
+    "[B1.1] Append N characters (docSize)": {
+      "yorkie": "168139 bytes",
+      "yorkie-lamport": "168099 bytes",
+      "yjs": "6031 bytes",
+      "ywasm": "6031 bytes",
+      "loro": "6162 bytes",
+      "automerge": "4003 bytes",
+      "automerge-wasm": "3992 bytes",
+      "diamond-types": "6095 bytes"
+    },
+    "[B1.1] Append N characters (memUsed)": {
+      "yorkie": "4.6 MB",
+      "yorkie-lamport": "4.8 MB",
+      "yjs": "0 B",
+      "ywasm": "0 B",
+      "loro": "0 B",
+      "automerge": "0 B",
+      "automerge-wasm": "0 B",
+      "diamond-types": "0 B"
+    },
+    "[B1.1] Append N characters (parseTime)": {
+      "yorkie": "119 ms",
+      "yorkie-lamport": "117 ms",
+      "yjs": "40 ms",
+      "ywasm": "34 ms",
+      "loro": "37 ms",
+      "automerge": "113 ms",
+      "automerge-wasm": "93 ms",
+      "diamond-types": "40 ms"
+    },
+    "[B1.2] Insert string of length N (time)": {
+      "yorkie": "1 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "2 ms",
+      "ywasm": "0 ms",
+      "loro": "1 ms",
+      "automerge": "42 ms",
+      "automerge-wasm": "398 ms"
+    },
+    "[B1.2] Insert string of length N (avgUpdateSize)": {
+      "yorkie": "6243 bytes",
+      "yorkie-lamport": "6127 bytes",
+      "yjs": "6031 bytes",
+      "ywasm": "6031 bytes",
+      "loro": "6107 bytes",
+      "automerge": "6209 bytes",
+      "automerge-wasm": "6201 bytes"
+    },
+    "[B1.2] Insert string of length N (encodeTime)": {
+      "yorkie": "1 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "0 ms",
+      "ywasm": "0 ms",
+      "loro": "0 ms",
+      "automerge": "6 ms",
+      "automerge-wasm": "0 ms"
+    },
+    "[B1.2] Insert string of length N (docSize)": {
+      "yorkie": "6285 bytes",
+      "yorkie-lamport": "6247 bytes",
+      "yjs": "6031 bytes",
+      "ywasm": "6031 bytes",
+      "loro": "6117 bytes",
+      "automerge": "3979 bytes",
+      "automerge-wasm": "3974 bytes"
+    },
+    "[B1.2] Insert string of length N (memUsed)": {
+      "yorkie": "42.2 kB",
+      "yorkie-lamport": "0 B",
+      "yjs": "42.4 kB",
+      "ywasm": "352.5 kB",
+      "loro": "17.9 kB",
+      "automerge": "7.6 kB",
+      "automerge-wasm": "464 B"
+    },
+    "[B1.2] Insert string of length N (parseTime)": {
+      "yorkie": "62 ms",
+      "yorkie-lamport": "59 ms",
+      "yjs": "44 ms",
+      "ywasm": "40 ms",
+      "loro": "42 ms",
+      "automerge": "61 ms",
+      "automerge-wasm": "53 ms"
+    },
+    "[B1.3] Prepend N characters (time)": {
+      "yorkie": "1099 ms",
+      "yorkie-lamport": "838 ms",
+      "yjs": "305 ms",
+      "ywasm": "55 ms",
+      "loro": "166 ms",
+      "automerge": "546 ms",
+      "automerge-wasm": "10332 ms",
+      "diamond-types": "112 ms"
+    },
+    "[B1.3] Prepend N characters (avgUpdateSize)": {
+      "yorkie": "246 bytes",
+      "yorkie-lamport": "127 bytes",
+      "yjs": "27 bytes",
+      "ywasm": "27 bytes",
+      "loro": "108 bytes",
+      "automerge": "120 bytes",
+      "automerge-wasm": "116 bytes",
+      "diamond-types": "68 bytes"
+    },
+    "[B1.3] Prepend N characters (encodeTime)": {
+      "yorkie": "81 ms",
+      "yorkie-lamport": "76 ms",
+      "yjs": "4 ms",
+      "ywasm": "1 ms",
+      "loro": "13 ms",
+      "automerge": "7 ms",
+      "automerge-wasm": "2 ms",
+      "diamond-types": "0 ms"
+    },
+    "[B1.3] Prepend N characters (docSize)": {
+      "yorkie": "168139 bytes",
+      "yorkie-lamport": "168099 bytes",
+      "yjs": "6041 bytes",
+      "ywasm": "6041 bytes",
+      "loro": "12125 bytes",
+      "automerge": "3995 bytes",
+      "automerge-wasm": "3988 bytes",
+      "diamond-types": "12093 bytes"
+    },
+    "[B1.3] Prepend N characters (memUsed)": {
+      "yorkie": "4.8 MB",
+      "yorkie-lamport": "4.9 MB",
+      "yjs": "1 MB",
+      "ywasm": "8.6 kB",
+      "loro": "17.4 kB",
+      "automerge": "16.7 kB",
+      "automerge-wasm": "680 B",
+      "diamond-types": "6.5 kB"
+    },
+    "[B1.3] Prepend N characters (parseTime)": {
+      "yorkie": "134 ms",
+      "yorkie-lamport": "128 ms",
+      "yjs": "80 ms",
+      "ywasm": "37 ms",
+      "loro": "43 ms",
+      "automerge": "110 ms",
+      "automerge-wasm": "84 ms",
+      "diamond-types": "45 ms"
+    },
+    "[B1.4] Insert N characters at random positions (time)": {
+      "yorkie": "1502 ms",
+      "yorkie-lamport": "1261 ms",
+      "yjs": "290 ms",
+      "ywasm": "174 ms",
+      "loro": "170 ms",
+      "automerge": "562 ms",
+      "automerge-wasm": "19651 ms",
+      "diamond-types": "108 ms"
+    },
+    "[B1.4] Insert N characters at random positions (avgUpdateSize)": {
+      "yorkie": "260 bytes",
+      "yorkie-lamport": "141 bytes",
+      "yjs": "29 bytes",
+      "ywasm": "29 bytes",
+      "loro": "109 bytes",
+      "automerge": "125 bytes",
+      "automerge-wasm": "121 bytes",
+      "diamond-types": "69 bytes"
+    },
+    "[B1.4] Insert N characters at random positions (encodeTime)": {
+      "yorkie": "84 ms",
+      "yorkie-lamport": "86 ms",
+      "yjs": "5 ms",
+      "ywasm": "1 ms",
+      "loro": "36 ms",
+      "automerge": "16 ms",
+      "automerge-wasm": "3 ms",
+      "diamond-types": "0 ms"
+    },
+    "[B1.4] Insert N characters at random positions (docSize)": {
+      "yorkie": "168139 bytes",
+      "yorkie-lamport": "168099 bytes",
+      "yjs": "29554 bytes",
+      "ywasm": "29554 bytes",
+      "loro": "35401 bytes",
+      "automerge": "24750 bytes",
+      "automerge-wasm": "24743 bytes",
+      "diamond-types": "20166 bytes"
+    },
+    "[B1.4] Insert N characters at random positions (memUsed)": {
+      "yorkie": "4.7 MB",
+      "yorkie-lamport": "4.8 MB",
+      "yjs": "1.1 MB",
+      "ywasm": "0 B",
+      "loro": "1.3 kB",
+      "automerge": "0 B",
+      "automerge-wasm": "256 B",
+      "diamond-types": "0 B"
+    },
+    "[B1.4] Insert N characters at random positions (parseTime)": {
+      "yorkie": "129 ms",
+      "yorkie-lamport": "132 ms",
+      "yjs": "99 ms",
+      "ywasm": "44 ms",
+      "loro": "39 ms",
+      "automerge": "146 ms",
+      "automerge-wasm": "80 ms",
+      "diamond-types": "44 ms"
+    },
+    "[B1.5] Insert N words at random positions (time)": {
+      "yorkie": "1873 ms",
+      "yorkie-lamport": "1585 ms",
+      "yjs": "341 ms",
+      "ywasm": "376 ms",
+      "loro": "171 ms",
+      "automerge": "984 ms",
+      "automerge-wasm": "107139 ms"
+    },
+    "[B1.5] Insert N words at random positions (avgUpdateSize)": {
+      "yorkie": "266 bytes",
+      "yorkie-lamport": "147 bytes",
+      "yjs": "36 bytes",
+      "ywasm": "36 bytes",
+      "loro": "117 bytes",
+      "automerge": "135 bytes",
+      "automerge-wasm": "131 bytes"
+    },
+    "[B1.5] Insert N words at random positions (encodeTime)": {
+      "yorkie": "144 ms",
+      "yorkie-lamport": "147 ms",
+      "yjs": "11 ms",
+      "ywasm": "1 ms",
+      "loro": "71 ms",
+      "automerge": "23 ms",
+      "automerge-wasm": "14 ms"
+    },
+    "[B1.5] Insert N words at random positions (docSize)": {
+      "yorkie": "323370 bytes",
+      "yorkie-lamport": "323328 bytes",
+      "yjs": "87924 bytes",
+      "ywasm": "87924 bytes",
+      "loro": "94524 bytes",
+      "automerge": "96215 bytes",
+      "automerge-wasm": "96203 bytes"
+    },
+    "[B1.5] Insert N words at random positions (memUsed)": {
+      "yorkie": "8.4 MB",
+      "yorkie-lamport": "8.6 MB",
+      "yjs": "2.3 MB",
+      "ywasm": "592 B",
+      "loro": "768 B",
+      "automerge": "22 kB",
+      "automerge-wasm": "176 B"
+    },
+    "[B1.5] Insert N words at random positions (parseTime)": {
+      "yorkie": "183 ms",
+      "yorkie-lamport": "184 ms",
+      "yjs": "85 ms",
+      "ywasm": "46 ms",
+      "loro": "44 ms",
+      "automerge": "226 ms",
+      "automerge-wasm": "198 ms"
+    },
+    "[B1.6] Insert string, then delete it (time)": {
+      "yorkie": "6 ms",
+      "yorkie-lamport": "3 ms",
+      "yjs": "4 ms",
+      "ywasm": "1 ms",
+      "loro": "3 ms",
+      "automerge": "98 ms",
+      "automerge-wasm": "897 ms"
+    },
+    "[B1.6] Insert string, then delete it (avgUpdateSize)": {
+      "yorkie": "6538 bytes",
+      "yorkie-lamport": "6306 bytes",
+      "yjs": "6053 bytes",
+      "ywasm": "6053 bytes",
+      "loro": "6217 bytes",
+      "automerge": "6351 bytes",
+      "automerge-wasm": "6338 bytes"
+    },
+    "[B1.6] Insert string, then delete it (encodeTime)": {
+      "yorkie": "1 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "0 ms",
+      "ywasm": "0 ms",
+      "loro": "0 ms",
+      "automerge": "7 ms",
+      "automerge-wasm": "0 ms"
+    },
+    "[B1.6] Insert string, then delete it (docSize)": {
+      "yorkie": "6305 bytes",
+      "yorkie-lamport": "6267 bytes",
+      "yjs": "38 bytes",
+      "ywasm": "38 bytes",
+      "loro": "6120 bytes",
+      "automerge": "3999 bytes",
+      "automerge-wasm": "3993 bytes"
+    },
+    "[B1.6] Insert string, then delete it (memUsed)": {
+      "yorkie": "12.7 kB",
+      "yorkie-lamport": "49.5 kB",
+      "yjs": "0 B",
+      "ywasm": "0 B",
+      "loro": "1.3 kB",
+      "automerge": "1.5 kB",
+      "automerge-wasm": "680 B"
+    },
+    "[B1.6] Insert string, then delete it (parseTime)": {
+      "yorkie": "45 ms",
+      "yorkie-lamport": "53 ms",
+      "yjs": "50 ms",
+      "ywasm": "38 ms",
+      "loro": "38 ms",
+      "automerge": "63 ms",
+      "automerge-wasm": "51 ms"
+    },
+    "[B1.7] Insert/Delete strings at random positions (time)": {
+      "yorkie": "2295 ms",
+      "yorkie-lamport": "2039 ms",
+      "yjs": "347 ms",
+      "ywasm": "206 ms",
+      "loro": "200 ms",
+      "automerge": "797 ms",
+      "automerge-wasm": "60600 ms"
+    },
+    "[B1.7] Insert/Delete strings at random positions (avgUpdateSize)": {
+      "yorkie": "288 bytes",
+      "yorkie-lamport": "170 bytes",
+      "yjs": "31 bytes",
+      "ywasm": "31 bytes",
+      "loro": "113 bytes",
+      "automerge": "139 bytes",
+      "automerge-wasm": "135 bytes"
+    },
+    "[B1.7] Insert/Delete strings at random positions (encodeTime)": {
+      "yorkie": "150 ms",
+      "yorkie-lamport": "156 ms",
+      "yjs": "12 ms",
+      "ywasm": "1 ms",
+      "loro": "18 ms",
+      "automerge": "27 ms",
+      "automerge-wasm": "8 ms"
+    },
+    "[B1.7] Insert/Delete strings at random positions (docSize)": {
+      "yorkie": "415439 bytes",
+      "yorkie-lamport": "415399 bytes",
+      "yjs": "28377 bytes",
+      "ywasm": "28377 bytes",
+      "loro": "50836 bytes",
+      "automerge": "59288 bytes",
+      "automerge-wasm": "59281 bytes"
+    },
+    "[B1.7] Insert/Delete strings at random positions (memUsed)": {
+      "yorkie": "11.5 MB",
+      "yorkie-lamport": "11.8 MB",
+      "yjs": "1.2 MB",
+      "ywasm": "0 B",
+      "loro": "752 B",
+      "automerge": "0 B",
+      "automerge-wasm": "64 B"
+    },
+    "[B1.7] Insert/Delete strings at random positions (parseTime)": {
+      "yorkie": "180 ms",
+      "yorkie-lamport": "203 ms",
+      "yjs": "110 ms",
+      "ywasm": "59 ms",
+      "loro": "39 ms",
+      "automerge": "161 ms",
+      "automerge-wasm": "136 ms"
+    },
+    "[B1.8] Append N numbers (time)": {
+      "yorkie": "910 ms",
+      "yorkie-lamport": "688 ms",
+      "yjs": "316 ms",
+      "ywasm": "123 ms",
+      "loro": "178 ms",
+      "automerge": "881 ms",
+      "automerge-wasm": "29001 ms"
+    },
+    "[B1.8] Append N numbers (avgUpdateSize)": {
+      "yorkie": "259 bytes",
+      "yorkie-lamport": "140 bytes",
+      "yjs": "32 bytes",
+      "ywasm": "32 bytes",
+      "loro": "114 bytes",
+      "automerge": "129 bytes",
+      "automerge-wasm": "125 bytes"
+    },
+    "[B1.8] Append N numbers (encodeTime)": {
+      "yorkie": "104 ms",
+      "yorkie-lamport": "103 ms",
+      "yjs": "4 ms",
+      "ywasm": "1 ms",
+      "loro": "1 ms",
+      "automerge": "15 ms",
+      "automerge-wasm": "2 ms"
+    },
+    "[B1.8] Append N numbers (docSize)": {
+      "yorkie": "210139 bytes",
+      "yorkie-lamport": "210099 bytes",
+      "yjs": "35634 bytes",
+      "ywasm": "35634 bytes",
+      "loro": "35719 bytes",
+      "automerge": "26992 bytes",
+      "automerge-wasm": "26985 bytes"
+    },
+    "[B1.8] Append N numbers (memUsed)": {
+      "yorkie": "5.7 MB",
+      "yorkie-lamport": "5.9 MB",
+      "yjs": "0 B",
+      "ywasm": "0 B",
+      "loro": "0 B",
+      "automerge": "62.7 kB",
+      "automerge-wasm": "176 B"
+    },
+    "[B1.8] Append N numbers (parseTime)": {
+      "yorkie": "131 ms",
+      "yorkie-lamport": "136 ms",
+      "yjs": "47 ms",
+      "ywasm": "42 ms",
+      "loro": "40 ms",
+      "automerge": "143 ms",
+      "automerge-wasm": "100 ms"
+    },
+    "[B1.9] Insert Array of N numbers (time)": {
+      "yorkie": "374 ms",
+      "yorkie-lamport": "388 ms",
+      "yjs": "10 ms",
+      "ywasm": "5 ms",
+      "loro": "18 ms",
+      "automerge": "120 ms",
+      "automerge-wasm": "9333 ms"
+    },
+    "[B1.9] Insert Array of N numbers (avgUpdateSize)": {
+      "yorkie": "581773 bytes",
+      "yorkie-lamport": "581657 bytes",
+      "yjs": "35657 bytes",
+      "ywasm": "35657 bytes",
+      "loro": "35735 bytes",
+      "automerge": "31207 bytes",
+      "automerge-wasm": "31199 bytes"
+    },
+    "[B1.9] Insert Array of N numbers (encodeTime)": {
+      "yorkie": "108 ms",
+      "yorkie-lamport": "102 ms",
+      "yjs": "1 ms",
+      "ywasm": "0 ms",
+      "loro": "1 ms",
+      "automerge": "14 ms",
+      "automerge-wasm": "1 ms"
+    },
+    "[B1.9] Insert Array of N numbers (docSize)": {
+      "yorkie": "210136 bytes",
+      "yorkie-lamport": "210098 bytes",
+      "yjs": "35657 bytes",
+      "ywasm": "35657 bytes",
+      "loro": "35742 bytes",
+      "automerge": "26958 bytes",
+      "automerge-wasm": "26953 bytes"
+    },
+    "[B1.9] Insert Array of N numbers (memUsed)": {
+      "yorkie": "5.8 MB",
+      "yorkie-lamport": "5.9 MB",
+      "yjs": "34.1 kB",
+      "ywasm": "0 B",
+      "loro": "1.3 kB",
+      "automerge": "62.9 kB",
+      "automerge-wasm": "960 B"
+    },
+    "[B1.9] Insert Array of N numbers (parseTime)": {
+      "yorkie": "124 ms",
+      "yorkie-lamport": "126 ms",
+      "yjs": "44 ms",
+      "ywasm": "43 ms",
+      "loro": "57 ms",
+      "automerge": "78 ms",
+      "automerge-wasm": "74 ms"
+    },
+    "[B1.10] Prepend N numbers (time)": {
+      "yorkie": "884 ms",
+      "yorkie-lamport": "653 ms",
+      "yjs": "281 ms",
+      "ywasm": "62 ms",
+      "loro": "184 ms",
+      "automerge": "939 ms",
+      "automerge-wasm": "10460 ms"
+    },
+    "[B1.10] Prepend N numbers (avgUpdateSize)": {
+      "yorkie": "254 bytes",
+      "yorkie-lamport": "135 bytes",
+      "yjs": "32 bytes",
+      "ywasm": "32 bytes",
+      "loro": "113 bytes",
+      "automerge": "124 bytes",
+      "automerge-wasm": "120 bytes"
+    },
+    "[B1.10] Prepend N numbers (encodeTime)": {
+      "yorkie": "104 ms",
+      "yorkie-lamport": "106 ms",
+      "yjs": "3 ms",
+      "ywasm": "1 ms",
+      "loro": "13 ms",
+      "automerge": "12 ms",
+      "automerge-wasm": "2 ms"
+    },
+    "[B1.10] Prepend N numbers (docSize)": {
+      "yorkie": "210139 bytes",
+      "yorkie-lamport": "210099 bytes",
+      "yjs": "35665 bytes",
+      "ywasm": "35665 bytes",
+      "loro": "41748 bytes",
+      "automerge": "26999 bytes",
+      "automerge-wasm": "26987 bytes"
+    },
+    "[B1.10] Prepend N numbers (memUsed)": {
+      "yorkie": "5.4 MB",
+      "yorkie-lamport": "5.5 MB",
+      "yjs": "1.9 MB",
+      "ywasm": "0 B",
+      "loro": "0 B",
+      "automerge": "64.7 kB",
+      "automerge-wasm": "0 B"
+    },
+    "[B1.10] Prepend N numbers (parseTime)": {
+      "yorkie": "131 ms",
+      "yorkie-lamport": "125 ms",
+      "yjs": "82 ms",
+      "ywasm": "45 ms",
+      "loro": "64 ms",
+      "automerge": "123 ms",
+      "automerge-wasm": "100 ms"
+    },
+    "[B1.11] Insert N numbers at random positions (time)": {
+      "yorkie": "1251 ms",
+      "yorkie-lamport": "1027 ms",
+      "yjs": "295 ms",
+      "ywasm": "203 ms",
+      "loro": "177 ms",
+      "automerge": "868 ms",
+      "automerge-wasm": "24809 ms"
+    },
+    "[B1.11] Insert N numbers at random positions (avgUpdateSize)": {
+      "yorkie": "259 bytes",
+      "yorkie-lamport": "140 bytes",
+      "yjs": "34 bytes",
+      "ywasm": "34 bytes",
+      "loro": "114 bytes",
+      "automerge": "129 bytes",
+      "automerge-wasm": "125 bytes"
+    },
+    "[B1.11] Insert N numbers at random positions (encodeTime)": {
+      "yorkie": "105 ms",
+      "yorkie-lamport": "111 ms",
+      "yjs": "14 ms",
+      "ywasm": "2 ms",
+      "loro": "43 ms",
+      "automerge": "12 ms",
+      "automerge-wasm": "4 ms"
+    },
+    "[B1.11] Insert N numbers at random positions (docSize)": {
+      "yorkie": "210139 bytes",
+      "yorkie-lamport": "210099 bytes",
+      "yjs": "59137 bytes",
+      "ywasm": "59137 bytes",
+      "loro": "65016 bytes",
+      "automerge": "47758 bytes",
+      "automerge-wasm": "47746 bytes"
+    },
+    "[B1.11] Insert N numbers at random positions (memUsed)": {
+      "yorkie": "5.7 MB",
+      "yorkie-lamport": "5.8 MB",
+      "yjs": "2.2 MB",
+      "ywasm": "69.2 kB",
+      "loro": "680 B",
+      "automerge": "65.2 kB",
+      "automerge-wasm": "0 B"
+    },
+    "[B1.11] Insert N numbers at random positions (parseTime)": {
+      "yorkie": "139 ms",
+      "yorkie-lamport": "131 ms",
+      "yjs": "102 ms",
+      "ywasm": "69 ms",
+      "loro": "66 ms",
+      "automerge": "132 ms",
+      "automerge-wasm": "103 ms"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (time)": {
+      "yorkie": "2 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "2 ms",
+      "ywasm": "1 ms",
+      "loro": "2 ms",
+      "automerge": "129 ms",
+      "automerge-wasm": "677 ms"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (updateSize)": {
+      "yorkie": "6444 bytes",
+      "yorkie-lamport": "6240 bytes",
+      "yjs": "6094 bytes",
+      "ywasm": "6094 bytes",
+      "loro": "9276 bytes",
+      "automerge": "9513 bytes",
+      "automerge-wasm": "9499 bytes"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (encodeTime)": {
+      "yorkie": "1 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "0 ms",
+      "ywasm": "0 ms",
+      "loro": "0 ms",
+      "automerge": "10 ms",
+      "automerge-wasm": "1 ms"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (docSize)": {
+      "yorkie": "12469 bytes",
+      "yorkie-lamport": "12401 bytes",
+      "yjs": "12152 bytes",
+      "ywasm": "12152 bytes",
+      "loro": "12248 bytes",
+      "automerge": "8018 bytes",
+      "automerge-wasm": "8011 bytes"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (memUsed)": {
+      "yorkie": "256.6 kB",
+      "yorkie-lamport": "132 kB",
+      "yjs": "0 B",
+      "ywasm": "568 B",
+      "loro": "576 B",
+      "automerge": "13.1 kB",
+      "automerge-wasm": "288 B"
+    },
+    "[B2.1] Concurrently insert string of length N at index 0 (parseTime)": {
+      "yorkie": "45 ms",
+      "yorkie-lamport": "43 ms",
+      "yjs": "57 ms",
+      "ywasm": "43 ms",
+      "loro": "36 ms",
+      "automerge": "75 ms",
+      "automerge-wasm": "74 ms"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (time)": {
+      "yorkie": "3143 ms",
+      "yorkie-lamport": "2624 ms",
+      "yjs": "112 ms",
+      "ywasm": "282 ms",
+      "loro": "114 ms",
+      "automerge": "359 ms",
+      "automerge-wasm": "65942 ms",
+      "diamond-types": "36 ms"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (updateSize)": {
+      "yorkie": "1745678 bytes",
+      "yorkie-lamport": "845739 bytes",
+      "yjs": "33444 bytes",
+      "ywasm": "33444 bytes",
+      "loro": "35554 bytes",
+      "automerge": "27490 bytes",
+      "automerge-wasm": "1093293 bytes",
+      "diamond-types": "20353 bytes"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (encodeTime)": {
+      "yorkie": "165 ms",
+      "yorkie-lamport": "165 ms",
+      "yjs": "4 ms",
+      "ywasm": "2 ms",
+      "loro": "84 ms",
+      "automerge": "13 ms",
+      "automerge-wasm": "7 ms",
+      "diamond-types": "1 ms"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (docSize)": {
+      "yorkie": "339069 bytes",
+      "yorkie-lamport": "338998 bytes",
+      "yjs": "66860 bytes",
+      "ywasm": "66852 bytes",
+      "loro": "71858 bytes",
+      "automerge": "50693 bytes",
+      "automerge-wasm": "50704 bytes",
+      "diamond-types": "40564 bytes"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (memUsed)": {
+      "yorkie": "9.7 MB",
+      "yorkie-lamport": "9.9 MB",
+      "yjs": "2.4 MB",
+      "ywasm": "0 B",
+      "loro": "448 B",
+      "automerge": "0 B",
+      "automerge-wasm": "176 B",
+      "diamond-types": "0 B"
+    },
+    "[B2.2] Concurrently insert N characters at random positions (parseTime)": {
+      "yorkie": "221 ms",
+      "yorkie-lamport": "225 ms",
+      "yjs": "122 ms",
+      "ywasm": "88 ms",
+      "loro": "43 ms",
+      "automerge": "82 ms",
+      "automerge-wasm": "122 ms",
+      "diamond-types": "49 ms"
+    },
+    "[B2.3] Concurrently insert N words at random positions (time)": {
+      "yorkie": "3765 ms",
+      "yorkie-lamport": "3202 ms",
+      "yjs": "100 ms",
+      "ywasm": "634 ms",
+      "loro": "128 ms",
+      "automerge": "868 ms",
+      "automerge-wasm": "353196 ms"
+    },
+    "[B2.3] Concurrently insert N words at random positions (updateSize)": {
+      "yorkie": "1781719 bytes",
+      "yorkie-lamport": "883505 bytes",
+      "yjs": "88994 bytes",
+      "ywasm": "88994 bytes",
+      "loro": "93132 bytes",
+      "automerge": "122499 bytes",
+      "automerge-wasm": "1185202 bytes"
+    },
+    "[B2.3] Concurrently insert N words at random positions (encodeTime)": {
+      "yorkie": "280 ms",
+      "yorkie-lamport": "280 ms",
+      "yjs": "5 ms",
+      "ywasm": "4 ms",
+      "loro": "156 ms",
+      "automerge": "40 ms",
+      "automerge-wasm": "32 ms"
+    },
+    "[B2.3] Concurrently insert N words at random positions (docSize)": {
+      "yorkie": "646215 bytes",
+      "yorkie-lamport": "646141 bytes",
+      "yjs": "178130 bytes",
+      "ywasm": "178130 bytes",
+      "loro": "188458 bytes",
+      "automerge": "185027 bytes",
+      "automerge-wasm": "191498 bytes"
+    },
+    "[B2.3] Concurrently insert N words at random positions (memUsed)": {
+      "yorkie": "17.1 MB",
+      "yorkie-lamport": "17.5 MB",
+      "yjs": "5.5 MB",
+      "ywasm": "200 B",
+      "loro": "416 B",
+      "automerge": "0 B",
+      "automerge-wasm": "0 B"
+    },
+    "[B2.3] Concurrently insert N words at random positions (parseTime)": {
+      "yorkie": "370 ms",
+      "yorkie-lamport": "371 ms",
+      "yjs": "100 ms",
+      "ywasm": "86 ms",
+      "loro": "54 ms",
+      "automerge": "266 ms",
+      "automerge-wasm": "373 ms"
+    },
+    "[B2.4] Concurrently insert & delete (time)": {
+      "yorkie": "7781 ms",
+      "yorkie-lamport": "5962 ms",
+      "yjs": "212 ms",
+      "ywasm": "1906 ms",
+      "loro": "252 ms",
+      "automerge": "1263 ms",
+      "automerge-wasm": "1114390 ms"
+    },
+    "[B2.4] Concurrently insert & delete (updateSize)": {
+      "yorkie": "3717392 bytes",
+      "yorkie-lamport": "1917006 bytes",
+      "yjs": "139517 bytes",
+      "ywasm": "139517 bytes",
+      "loro": "163564 bytes",
+      "automerge": "298824 bytes",
+      "automerge-wasm": "2395876 bytes"
+    },
+    "[B2.4] Concurrently insert & delete (encodeTime)": {
+      "yorkie": "328 ms",
+      "yorkie-lamport": "505 ms",
+      "yjs": "12 ms",
+      "ywasm": "11 ms",
+      "loro": "257 ms",
+      "automerge": "67 ms",
+      "automerge-wasm": "52 ms"
+    },
+    "[B2.4] Concurrently insert & delete (docSize)": {
+      "yorkie": "710914 bytes",
+      "yorkie-lamport": "1180387 bytes",
+      "yjs": "279172 bytes",
+      "ywasm": "279172 bytes",
+      "loro": "289595 bytes",
+      "automerge": "293837 bytes",
+      "automerge-wasm": "307291 bytes"
+    },
+    "[B2.4] Concurrently insert & delete (memUsed)": {
+      "yorkie": "18.5 MB",
+      "yorkie-lamport": "32.7 MB",
+      "yjs": "7.7 MB",
+      "ywasm": "72 B",
+      "loro": "3.1 kB",
+      "automerge": "82.4 kB",
+      "automerge-wasm": "152 B"
+    },
+    "[B2.4] Concurrently insert & delete (parseTime)": {
+      "yorkie": "432 ms",
+      "yorkie-lamport": "625 ms",
+      "yjs": "184 ms",
+      "ywasm": "128 ms",
+      "loro": "76 ms",
+      "automerge": "345 ms",
+      "automerge-wasm": "651 ms"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (time)": {
+      "yorkie": "2760 ms",
+      "yorkie-lamport": "50 ms",
+      "yjs": "85 ms",
+      "ywasm": "158 ms",
+      "loro": "65 ms",
+      "automerge": "1671 ms",
+      "automerge-wasm": "1166 ms"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (updateSize)": {
+      "yorkie": "361900 bytes",
+      "yorkie-lamport": "181720 bytes",
+      "yjs": "49173 bytes",
+      "ywasm": "49179 bytes",
+      "loro": "161636 bytes",
+      "automerge": "295616 bytes",
+      "automerge-wasm": "283296 bytes"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (encodeTime)": {
+      "yorkie": "4 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "5 ms",
+      "ywasm": "3 ms",
+      "loro": "4 ms",
+      "automerge": "6 ms",
+      "automerge-wasm": "2 ms"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (docSize)": {
+      "yorkie": "46484 bytes",
+      "yorkie-lamport": "273 bytes",
+      "yjs": "32225 bytes",
+      "ywasm": "32238 bytes",
+      "loro": "21505 bytes",
+      "automerge": "86171 bytes",
+      "automerge-wasm": "86041 bytes"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (memUsed)": {
+      "yorkie": "0 B",
+      "yorkie-lamport": "0 B",
+      "yjs": "597.4 kB",
+      "ywasm": "0 B",
+      "loro": "704 B",
+      "automerge": "0 B",
+      "automerge-wasm": "0 B"
+    },
+    "[B3.1] 20√N clients concurrently set number in Map (parseTime)": {
+      "yorkie": "101 ms",
+      "yorkie-lamport": "89 ms",
+      "yjs": "103 ms",
+      "ywasm": "92 ms",
+      "loro": "66 ms",
+      "automerge": "78 ms",
+      "automerge-wasm": "298 ms"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (time)": {
+      "yorkie": "2776 ms",
+      "yorkie-lamport": "96 ms",
+      "yjs": "94 ms",
+      "ywasm": "164 ms",
+      "loro": "91 ms",
+      "automerge": "1801 ms",
+      "automerge-wasm": "2238 ms"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (updateSize)": {
+      "yorkie": "585630 bytes",
+      "yorkie-lamport": "406990 bytes",
+      "yjs": "85083 bytes",
+      "ywasm": "85078 bytes",
+      "loro": "200630 bytes",
+      "automerge": "410410 bytes",
+      "automerge-wasm": "325370 bytes"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (encodeTime)": {
+      "yorkie": "4 ms",
+      "yorkie-lamport": "0 ms",
+      "yjs": "4 ms",
+      "ywasm": "2 ms",
+      "loro": "18 ms",
+      "automerge": "29 ms",
+      "automerge-wasm": "5 ms"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (docSize)": {
+      "yorkie": "46605 bytes",
+      "yorkie-lamport": "394 bytes",
+      "yjs": "32243 bytes",
+      "ywasm": "32237 bytes",
+      "loro": "40650 bytes",
+      "automerge": "112507 bytes",
+      "automerge-wasm": "93388 bytes"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (memUsed)": {
+      "yorkie": "0 B",
+      "yorkie-lamport": "0 B",
+      "yjs": "406 kB",
+      "ywasm": "544 B",
+      "loro": "536 B",
+      "automerge": "0 B",
+      "automerge-wasm": "568 B"
+    },
+    "[B3.2] 20√N clients concurrently set Object in Map (parseTime)": {
+      "yorkie": "96 ms",
+      "yorkie-lamport": "91 ms",
+      "yjs": "96 ms",
+      "ywasm": "91 ms",
+      "loro": "82 ms",
+      "automerge": "103 ms",
+      "automerge-wasm": "180 ms"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (time)": {
+      "yorkie": "2755 ms",
+      "yorkie-lamport": "51 ms",
+      "yjs": "98 ms",
+      "ywasm": "122 ms",
+      "loro": "105 ms",
+      "automerge": "3623 ms",
+      "automerge-wasm": "1767 ms"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (updateSize)": {
+      "yorkie": "8138900 bytes",
+      "yorkie-lamport": "7960260 bytes",
+      "yjs": "7826235 bytes",
+      "ywasm": "7826235 bytes",
+      "loro": "7940240 bytes",
+      "automerge": "8075760 bytes",
+      "automerge-wasm": "8063440 bytes"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (encodeTime)": {
+      "yorkie": "4 ms",
+      "yorkie-lamport": "1 ms",
+      "yjs": "4 ms",
+      "ywasm": "3 ms",
+      "loro": "45 ms",
+      "automerge": "107 ms",
+      "automerge-wasm": "94 ms"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (docSize)": {
+      "yorkie": "52647 bytes",
+      "yorkie-lamport": "6436 bytes",
+      "yjs": "36844 bytes",
+      "ywasm": "38385 bytes",
+      "loro": "7799809 bytes",
+      "automerge": "98042 bytes",
+      "automerge-wasm": "98003 bytes"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (memUsed)": {
+      "yorkie": "0 B",
+      "yorkie-lamport": "0 B",
+      "yjs": "15.8 kB",
+      "ywasm": "152 B",
+      "loro": "752 B",
+      "automerge": "0 B",
+      "automerge-wasm": "0 B"
+    },
+    "[B3.3] 20√N clients concurrently set String in Map (parseTime)": {
+      "yorkie": "99 ms",
+      "yorkie-lamport": "79 ms",
+      "yjs": "97 ms",
+      "ywasm": "77 ms",
+      "loro": "62 ms",
+      "automerge": "114 ms",
+      "automerge-wasm": "263 ms"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (time)": {
+      "yorkie": "2801 ms",
+      "yorkie-lamport": "63 ms",
+      "yjs": "67 ms",
+      "ywasm": "82 ms",
+      "loro": "247 ms",
+      "automerge": "2781 ms",
+      "automerge-wasm": "643 ms"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (updateSize)": {
+      "yorkie": "380810 bytes",
+      "yorkie-lamport": "200630 bytes",
+      "yjs": "52749 bytes",
+      "ywasm": "52753 bytes",
+      "loro": "166750 bytes",
+      "automerge": "324690 bytes",
+      "automerge-wasm": "285330 bytes"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (encodeTime)": {
+      "yorkie": "31 ms",
+      "yorkie-lamport": "31 ms",
+      "yjs": "2 ms",
+      "ywasm": "1 ms",
+      "loro": "8 ms",
+      "automerge": "12 ms",
+      "automerge-wasm": "3 ms"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (docSize)": {
+      "yorkie": "97686 bytes",
+      "yorkie-lamport": "51475 bytes",
+      "yjs": "26594 bytes",
+      "ywasm": "26598 bytes",
+      "loro": "31079 bytes",
+      "automerge": "96446 bytes",
+      "automerge-wasm": "86518 bytes"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (memUsed)": {
+      "yorkie": "1.4 MB",
+      "yorkie-lamport": "1.4 MB",
+      "yjs": "677.1 kB",
+      "ywasm": "328 B",
+      "loro": "504 B",
+      "automerge": "47.7 kB",
+      "automerge-wasm": "392 B"
+    },
+    "[B3.4] 20√N clients concurrently insert text in Array (parseTime)": {
+      "yorkie": "134 ms",
+      "yorkie-lamport": "108 ms",
+      "yjs": "87 ms",
+      "ywasm": "52 ms",
+      "loro": "46 ms",
+      "automerge": "59 ms",
+      "automerge-wasm": "59 ms"
+    },
+    "[B3.5] 20√N clients concurrently insert text (time)": {
+      "yorkie": "2837 ms",
+      "yorkie-lamport": "90 ms",
+      "yjs": "64 ms",
+      "ywasm": "79 ms",
+      "loro": "337 ms",
+      "automerge": "2944 ms",
+      "automerge-wasm": "2987 ms",
+      "diamond-types": "26 ms"
+    },
+    "[B3.5] 20√N clients concurrently insert text (updateSize)": {
+      "yorkie": "374650 bytes",
+      "yorkie-lamport": "194470 bytes",
+      "yjs": "48119 bytes",
+      "ywasm": "48118 bytes",
+      "loro": "163670 bytes",
+      "automerge": "310340 bytes",
+      "automerge-wasm": "298020 bytes",
+      "diamond-types": "93939 bytes"
+    },
+    "[B3.5] 20√N clients concurrently insert text (encodeTime)": {
+      "yorkie": "30 ms",
+      "yorkie-lamport": "28 ms",
+      "yjs": "2 ms",
+      "ywasm": "1 ms",
+      "loro": "13 ms",
+      "automerge": "11 ms",
+      "automerge-wasm": "5 ms",
+      "diamond-types": "1 ms"
+    },
+    "[B3.5] 20√N clients concurrently insert text (docSize)": {
+      "yorkie": "91526 bytes",
+      "yorkie-lamport": "45315 bytes",
+      "yjs": "24295 bytes",
+      "ywasm": "24317 bytes",
+      "loro": "29772 bytes",
+      "automerge": "90788 bytes",
+      "automerge-wasm": "90775 bytes",
+      "diamond-types": "37933 bytes"
+    },
+    "[B3.5] 20√N clients concurrently insert text (memUsed)": {
+      "yorkie": "766.3 kB",
+      "yorkie-lamport": "692 kB",
+      "yjs": "438.7 kB",
+      "ywasm": "560 B",
+      "loro": "736 B",
+      "automerge": "0 B",
+      "automerge-wasm": "288 B",
+      "diamond-types": "0 B"
+    },
+    "[B3.5] 20√N clients concurrently insert text (parseTime)": {
+      "yorkie": "124 ms",
+      "yorkie-lamport": "92 ms",
+      "yjs": "76 ms",
+      "ywasm": "78 ms",
+      "loro": "67 ms",
+      "automerge": "119 ms",
+      "automerge-wasm": "58 ms",
+      "diamond-types": "64 ms"
+    },
+    "[B4] Apply real-world editing dataset (time)": {
+      "yorkie": "40505 ms",
+      "yorkie-lamport": "35416 ms",
+      "yjs": "4787 ms",
+      "ywasm": "32504 ms",
+      "loro": "3067 ms",
+      "automerge": "14712 ms",
+      "diamond-types": "1601 ms"
+    },
+    "[B4] Apply real-world editing dataset (encodeTime)": {
+      "yorkie": "2891 ms",
+      "yorkie-lamport": "3025 ms",
+      "yjs": "30 ms",
+      "ywasm": "10 ms",
+      "loro": "83 ms",
+      "automerge": "226 ms",
+      "diamond-types": "2 ms"
+    },
+    "[B4] Apply real-world editing dataset (docSize)": {
+      "yorkie": "6975086 bytes",
+      "yorkie-lamport": "6975044 bytes",
+      "yjs": "159929 bytes",
+      "ywasm": "159927 bytes",
+      "loro": "258228 bytes",
+      "automerge": "129212 bytes",
+      "diamond-types": "109005 bytes"
+    },
+    "[B4] Apply real-world editing dataset (parseTime)": {
+      "yorkie": "2338 ms",
+      "yorkie-lamport": "2356 ms",
+      "yjs": "77 ms",
+      "ywasm": "30 ms",
+      "loro": "18 ms",
+      "automerge": "1972 ms",
+      "diamond-types": "16 ms"
+    },
+    "[B4] Apply real-world editing dataset (memUsed)": {
+      "yorkie": "202.1 MB",
+      "yorkie-lamport": "206.3 MB",
+      "yjs": "3.1 MB",
+      "ywasm": "0 B",
+      "loro": "0 B",
+      "automerge": "0 B",
+      "diamond-types": "0 B"
+    },
+    "[B4x100] Apply real-world editing dataset 100 times (time)": {
+      "yjs": "489790 ms",
+      "loro": "294604 ms",
+      "diamond-types": "166993 ms"
+    },
+    "[B4x100] Apply real-world editing dataset 100 times (encodeTime)": {
+      "yjs": "722 ms",
+      "loro": "14926 ms",
+      "diamond-types": "174 ms"
+    },
+    "[B4x100] Apply real-world editing dataset 100 times (docSize)": {
+      "yjs": "15989245 bytes",
+      "loro": "25805795 bytes",
+      "diamond-types": "10807135 bytes"
+    },
+    "[B4x100] Apply real-world editing dataset 100 times (parseTime)": {
+      "yjs": "3153 ms",
+      "loro": "1226 ms",
+      "diamond-types": "1452 ms"
+    },
+    "[B4x100] Apply real-world editing dataset 100 times (memUsed)": {
+      "yjs": "326.9 MB",
+      "loro": "0 B",
+      "diamond-types": "0 B"
+    }
+  }
+}
