@@ -135,9 +135,9 @@ export const runBenchmarkB3 = async (crdtFactory, filter) => {
         doc.insertText(0, i.toString())
       },
       docs => {
-        const str = docs[0].toString()
+        const str = docs[0].getText()
         docs.forEach(doc => {
-          t.compareStrings(str, doc.toString())
+          t.compareStrings(str, doc.getText())
         })
       }
     )
